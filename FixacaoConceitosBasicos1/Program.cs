@@ -9,4 +9,9 @@
  * - A classe CalculaAluguelCarro deve ter um método estático chamado Calcular que recebe um int dias, um int quilometragemInicial, um int quilometragemFinal e retorna o valor total do aluguel
  */
 
-//PRIMEIRA TAREFA REALIZADA
+//Tarefa 1
+
+using FixacaoConceitosBasicos1.Model;
+
+MetrosMilimetros MetrosMil = new MetrosMilimetros();
+Console.WriteLine(MetrosMilimetros.converter(3));
